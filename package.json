@@ -1,0 +1,29 @@
+{
+  "name": "functional-programming",
+  "version": "1.0.0",
+  "description": "Functional Programming, Part of Tech-Track",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniDw/functional-programming.git"
+  },
+  "keywords": [
+    "D3.js",
+    "javascript",
+    "data",
+    "functional",
+    "programming"
+  ],
+  "author": "GiovanniDw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GiovanniDw/functional-programming/issues"
+  },
+  "homepage": "https://github.com/GiovanniDw/functional-programming#readme",
+  "dependencies": {
+    "d3": "^6.2.0"
+  }
+}
