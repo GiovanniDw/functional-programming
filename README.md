@@ -13,7 +13,7 @@
     - [🐒 API](#-api)
   - [🏫 Assignment](#-assignment)
     - [Learning goals](#learning-goals)
-    - [Week 1 - title 🐒](#week-1---title-)
+    - [Week 1 - Data Opschonen 🐒](#week-1---data-opschonen-)
     - [Week 2 - title 🛠](#week-2---title-)
     - [Week 3 - title 🎁](#week-3---title-)
     - [Rubric](#rubric)
@@ -67,9 +67,9 @@ In this course..
 -   _You can ..._
 -   _You can ..._
 
-### Week 1 - title 🐒
+### Week 1 - Data Opschonen 🐒
 
-Goal: xxx
+Goal: `map()` & `filter()` & functional chains toepassen
 --> hoe heb ik dit gedaan? --> verwijzing naar wiki, of inklappen?
 
 ### Week 2 - title 🛠
