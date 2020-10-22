@@ -4,6 +4,7 @@
   "description": "Functional Programming, Part of Tech-Track",
   "main": "index.js",
   "scripts": {
+    "start": "live-server",
     "test": "test"
   },
   "repository": {
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/GiovanniDw/functional-programming#readme",
   "dependencies": {
     "d3": "^6.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }
