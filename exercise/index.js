@@ -1,19 +1,6 @@
 const data = '../data/survey_id.json';
 
-// function getData(data) {
-// 	let getData = fetch(data)
-// 		.then((response) => response.json())
-// 		.then(json => console.log(json))
-// 		// .then((result) => {
-// 		// 	console.log(result);
-// 		// 	return result
-// 		// })
-// 		.catch((error) => {
-// 			console.error('nope' + error);
-// 		});
-// };
-
-status = (response) => {
+responseStatus = (response) => {
     if (response.status >= 200 && response.status < 300) {
         console.log(response)
 		return Promise.resolve(response);
@@ -22,45 +9,53 @@ status = (response) => {
 	}
 }
 
-json = (response) => {
+readResponseJSON = (response) => {
 	return response.json();
 }
 
-surveyAnswers = (response) => { 
-    return 
+logResult = (result) => {
+    console.log(result)
 }
 
+fetchJSON = (data) => {
+    fetch(data)
+        .then(responseStatus)
+        .then(readResponseJSON)
+        .then(logResult)
+        .then(data => {
+            console.log('Request succeeded with JSON response', data)
+            return getAllSurveyData(data);
+        })
+        // .then(data => {
 
-
-let getData = fetch(data)
-    .then(status)
-    .then(json)
-    .then(data => {
-        console.log('Request succeeded with JSON response', data)
-        return data
-    })
-    .then(data => {
-
-    })
-    // .then((json) => {
-    //     console.log(json)
-    //     return json
-    // })
-	// .then((json) => {
-    //     console.log(json);
+        // })
+        // .then((json) => {
+        //     console.log(json)
+        //     return json
+        // })
+        // .then((json) => {
+        //     console.log(json);
         
-	// 	return json
-	// })
-	.catch((error) => {
-		console.error('nope' + error);
-	});
+        // 	return json
+        // })
+        .catch((error) => {
+            console.error('nope' + error);
+        });
+}
 
-var surveyAnswers = JSON.stringify(getData);
+fetchJSON(data)
+
+// var surveyAnswers = JSON.stringify(getData);
 
 // let surveyAnswers = getData;
 
-console.log(json());
 
-let getAge = (getData) => {
+getAllSurveyData = (data) => {
+	for (let i = 0; i < data.length; i++) {
+		const surveyAnswers = data[i];
+		console.log(surveyAnswers);
+	}
+};
+ 
 
-}
+ 
