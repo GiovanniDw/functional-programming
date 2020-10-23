@@ -14,36 +14,84 @@ readResponseJSON = (response) => {
 	return response.json();
 }
 
-logResult = (result) => {
-    JSON.stringify(result)
-    console.log(result)
-    return result
+logResult = (results) => {
+    
+    JSON.stringify(results)
+    console.log(results)
+    return results
 }
-
-calcSiblings = (result) => {
-    for (let i = 0; i < result.length; i++) {
-        let getBrothers = result[i].hoeveelheidBroers;
-		let getSisters = result[i].hoeveelheidZussen;
-        let siblings = getBrothers + getSisters
-        console.log(siblings)
-    }
-    return
-    // console.log(siblings)
-};
 
 //thanks to https://stackoverflow.com/a/34014512/13772119
 
-stringToNumber = (result) => {
- for (let i = 0; i < result.length; i++) {
-		let obj = result[i];
+stringToNumber = (results) => {
+    console.log("str to nm")
+    console.log(results)
+ for (let i = 0; i < results.length; i++) {
+		let obj = results[i];
 		for (let prop in obj) {
 			if (obj.hasOwnProperty(prop) && !isNaN(obj[prop])) {
 				obj[prop] = +obj[prop];
 			}
 		}
  }
-    return result
+    return results
 }
+
+
+calcSiblings = (results) => {
+
+    for (let i = 0; i < results.length; i++) {
+        let getBrothers = results[i].hoeveelheidBroers;
+		let getSisters = results[i].hoeveelheidZussen;
+        let siblings = getBrothers + getSisters;
+        console.log(siblings)
+        return results
+    }
+    
+    
+};
+
+getAnswersByColName = (results, colName) => {
+    if (results.length < 1) {
+        console.log("No Items in result")   
+        return
+    }
+    let resultByColName = []
+    for (result of results) {
+        resultByColName.push(result[colName])
+    }
+    return resultByColName
+    
+}
+
+getAge = (results) => {
+    console.log("GetAge function")
+    let getBirthdate = getAnswersByColName(results, "geboortedatum");
+    console.log(getBirthdate);
+    let birthdate = convertDateString(getBirthdate);
+    console.log(birthdate)
+
+
+}
+
+convertDateString = (date) => {
+    let convertedDates = [];
+    date.forEach(dateString => {
+        let dateParts = dateString.split('-');
+        let dateObj = new Date(+dateParts[2], dateParts[1] - 1, +dateParts[0]);
+        
+        convertedDates.push(dateObj.toString())
+    });
+    return convertedDates
+}
+// convertDateString = (date) => {
+	 
+// 	let convertedDates = date.map((dateString) => {
+// 		let dateParts = dateString.split('-');
+// 		let dateObj = new Date(+dateParts[2], dateParts[1] - 1, +dateParts[0]);
+// 	});
+// 	return convertedDates;
+// };
 
 
 
@@ -52,11 +100,11 @@ fetchJSON = (data) => {
 		.then(responseStatus)
 		.then(readResponseJSON)
 		.then(logResult)
-		.then(stringToNumber)
-		.then(calcSiblings)
-		// .then(getAge)
+		// .then(stringToNumber)
+		.then(getAge)
+		// .then(calcSiblings)
 		.catch((error) => {
-			console.error('nope' + error);
+			console.error('Can not fetch becasuse: ' + error);
 		});
 }
 
