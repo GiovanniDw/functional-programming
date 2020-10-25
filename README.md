@@ -1,6 +1,10 @@
+# Functional Programming
+
 ## Tech Track
 
-# Functional Programming
+Functional Programming is part of the [Tech Track](https://github.com/cmda-tt) given at [CMDA](https://github.com/cmda)
+
+
 
 <details>
   <summary><strong>Table of Contents</strong> (click to expand)</summary>
@@ -8,6 +12,7 @@
 <!-- toc -->
 
 - [Functional Programming](#functional-programming)
+  - [Tech Track](#tech-track)
   - [📋 Concept](#-concept)
   - [⚙️ Installation](#️-installation)
     - [🐒 API](#-api)
@@ -40,13 +45,13 @@ $ git https://github.com/GiovanniDw/functional-programming.git
 Then, navigate to this folder and run:
 
 ```zsh
-    npm install
+npm install
 ```
 
 To run the project:
 
 ```zsh
-    npm run dev
+npm run dev
 ```
 
 ### 🐒 API
