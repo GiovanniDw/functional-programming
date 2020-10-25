@@ -2,11 +2,14 @@ const data = '../data/Survey_Information_Design_clean-parsed.json';
 
 fetch(data)
 	.then(responseStatus)
-	.then(readResponseJSON)
-	.then(logResult)
-	.then(stringToNumber)
-	// .then(calcSiblings)
-	.then(correctBirthDates)
+    .then(readResponseJSON)
+    .then(result => {
+        logResult(result)
+		stringToNumber(result)
+		calcSiblings(result)
+        correctBirthDates(result)
+        getIntrovertOfExtrovert(result)
+    })
 	.catch((error) => {
 		console.error('Can not fetch becasuse: ' + error);
 	});
@@ -28,6 +31,26 @@ function logResult(result) {
 	console.log(result);
 	return result;
 };
+
+function getIntrovertOfExtrovert(data) {
+    let rawData = data
+        .map((i) => i['IntrovertOfExtrovert']);
+    editIntrovertOfExtrovert(rawData);
+}
+
+function editIntrovertOfExtrovert(rawData) {
+    let newData = rawData
+    for (let i = 0; i < newData.length; i++) {
+        let I = "Introvert"
+        let E = "Extrovert"
+        if (newData[i] != I && newData[i] != E) {
+            newData[i] = "Ambivert"
+        }   
+    }
+    console.log(newData)
+}
+
+
 
 //thanks to https://stackoverflow.com/a/34014512/13772119
 
@@ -52,7 +75,8 @@ function calcSiblings(result) {
 		let getSisters = result[i].hoeveelheidZussen;
 		siblings.push(getBrothers + getSisters);
 	}
-	console.log(`Siblings per object: ${siblings}`);
+    console.log(`Siblings per object: `);
+    console.log(siblings)
 	return;
 };
 
