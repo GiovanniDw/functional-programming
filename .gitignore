@@ -1,3 +1,6 @@
 .DS_Store
 data
+exercise/data
 node_modules
+.env
+

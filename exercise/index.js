@@ -1,4 +1,8 @@
-const data = '../data/Survey_Information_Design_clean-parsed.json';
+const data = '../../exercise/data/Survey_Information_Design_clean-parsed.json';
+// rows to edit
+// 
+
+
 
 fetch(data)
 	.then(responseStatus)
@@ -8,7 +12,8 @@ fetch(data)
 		stringToNumber(result)
 		calcSiblings(result)
         correctBirthDates(result)
-        getIntrovertOfExtrovert(result)
+		getIntrovertOfExtrovert(result)
+		transformDates(result);
     })
 	.catch((error) => {
 		console.error('Can not fetch becasuse: ' + error);
@@ -94,10 +99,18 @@ function getAnswersByColName(results, colName) {
 
 // calc age https://stackoverflow.com/questions/4060004/calculate-age-given-the-birth-date-in-the-format-yyyymmdd
 
+function transformDates(results) {
+	console.log('Transform date function');
+	let getDates = getAnswersByColName(results, 'tijdreisJaar');
+	console.log(getDates);
+	let newDates = formatDateString(getDates);
+	console.log(newDates);
+	return results;
+};
+
 function correctBirthDates(results) {
 	console.log('correctBirthDates function');
 	let getBirthdate = getAnswersByColName(results, 'geboortedatum');
-	console.log(getBirthdate);
 	let birthdate = formatDateString(getBirthdate);
 	console.log(birthdate);
 	return results;
@@ -107,11 +120,20 @@ function correctBirthDates(results) {
 function formatDateString(date) {
 	let convertedDates = [];
 	date.forEach((dateString) => {
-		let dateParts = dateString.split('-');
-		let dateObj = new Date(+dateParts[2], dateParts[1] - 1, +dateParts[0]);
-
-		convertedDates.push(dateObj.toString());
+		if (dateString) {
+			let dateParts = dateString
+				.replaceAll('-', '/')
+				.split('/');
+			let dateObj = new Date(
+				+dateParts[2],
+				dateParts[1] - 1,
+				+dateParts[0]
+			);
+			convertedDates.push(dateObj.toString());
+		}
+		
 	});
+	console.log(convertedDates);
 	return convertedDates;
 };
 // convertDateString = (date) => {
