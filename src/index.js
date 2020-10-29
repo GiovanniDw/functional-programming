@@ -1,7 +1,14 @@
 const data = "https://opendata.rdw.nl/resource/ixf8-gtwq.json"
 const url = 'https://opendata.rdw.nl/resource/';
-const endPoint = 'qidm-7mkf.json';
 
+
+const gebruiksdoel = 'qidm-7mkf.json';
+const tijdvak = 'ixf8-gtwq.json';
+const verkooppunt = "fk68-nf2y.json"
+const specificatiesParkeergebied = 'b3us-f26s.json';
+const betaalmethodeGebied = 'r3rs-ibz5.json';
+const regeling = 'yefi-qfiq.json';
+const endPoint = regeling;
 
 
 fetch(url + endPoint)
