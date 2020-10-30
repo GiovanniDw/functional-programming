@@ -1,15 +1,10 @@
 # Functional Programming
 
-Functional Programming is a course that's part of the [Tech Track](https://github.com/cmda-tt) given at [CMDA](https://github.com/cmda).
+Functional Programming is a course given at [CMDA](https://github.com/cmda). This course is part of the [Tech Track](https://github.com/cmda-tt) given in Project Information Design.  
 
-[For more information about this course and the Tech Track 〉](https://github.com/cmda-tt/course-20-21)  
-[The Wiki for my documented process for this course 〉](https://github.com/GiovanniDw/functional-programming/wiki)
-
-
-In this repo you will find my work for this course.
+[For more information about the Tech Track and this course.](https://github.com/cmda-tt/course-20-21)  
 
 ## Contents
-  
   - [Contents](#contents)
   - [Concept](#concept)
   - [Installation](#installation)
@@ -26,9 +21,9 @@ In this repo you will find my work for this course.
 
 ## Concept
 
-_What does your app do, what is the goal? (passing butter)_
+> My concept is to create an Interactive Visualisation for the cheapest moments to find a parkingspot in different cities.  
 
-For more information
+During this course the code in this repo will; filter(), clean() & transform() the parking datasets. Read more about te concept in [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
 
 ## Installation
 
@@ -38,7 +33,7 @@ First, clone the repo to your local machine.
 $ git clone https://github.com/GiovanniDw/functional-programming.git
 ```
 
-Then `$ cd ` into the project folder.
+Then `$ cd` into the project folder.
 
 ```zsh
 $ npm install
@@ -60,8 +55,13 @@ Volkskrant's API
 
 <details>
   <summary></strong> (click to expand)</summary>
-In this course..
 
+**During this course** _I will_
+
+ - Apply functional programming patterns to clean & transform data.
+ - Develop a concept for _The Volkskrant_ based on external datasets
+ - Create interactive visualizations with data by using D3
+ - 
 ### Learning goals
 
 -   _You can ..._
