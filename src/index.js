@@ -8,7 +8,7 @@ const verkooppunt = "fk68-nf2y.json"
 const specificatiesParkeergebied = 'b3us-f26s.json';
 const betaalmethodeGebied = 'r3rs-ibz5.json';
 const regeling = 'yefi-qfiq.json';
-const endPoint = regeling;
+const endPoint = tijdvak;
 
 
 fetch(url + endPoint)
