@@ -1,6 +1,6 @@
 # Functional Programming
 
-Functional Programming, a course that's part of the [Tech Track](https://github.com/cmda-tt), this Track is given at [CMDA](https://github.com/cmda).
+Functional Programming is a course that's part of the [Tech Track](https://github.com/cmda-tt) given at [CMDA](https://github.com/cmda).
 
 [For more information about this course and the Tech Track 〉](https://github.com/cmda-tt/course-20-21)  
 [The Wiki for my documented process for this course 〉](https://github.com/GiovanniDw/functional-programming/wiki)
@@ -96,12 +96,7 @@ Goal: xxx
 
 - Teachers from the [Tech Track @CMD](https://github.com/cmda-tt/)
 
-#License
+---
 
-Author: [Giovanni Dwidjosewojo](https://github.com/giovannidw) , license by
-[MIT](https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE)
-
-
-
-<p align="center"><a align="left" href="https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE">MIT licenced. </a> | <a align="center" href="https://github.com/GiovanniDw/functional-programming/wiki">GiovanniDw</a> | <a align="right" href="https://github.com/GiovanniDw/functional-programming/wiki">Wiki for more</a>
+<p align="center"><a align="left" href="https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE">MIT licenced</a> | <a align="center" href="https://github.com/GiovanniDw/functional-programming/wiki"><b>GiovanniDw</b></a> | <a align="right" href="https://github.com/GiovanniDw/functional-programming/wiki">Wiki for more</a>
 </p>
