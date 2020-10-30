@@ -19,22 +19,24 @@
     </br>
     <sup>given during Project Information Design <a href="https://github.com/cmda">@CMDA⤴︎</a></sup>
   </p>
-  
+  <sub align="center">More information about the Tech Track?</sub>
+  </br>
+<sup>
+<a href="https://github.com/cmda-tt/course-20-21">@CMDA-TT⤴︎</a>
+</sup>
 </div>
 
-<div align="center">More information about the Tech Track?
-<a href="https://github.com/cmda-tt/course-20-21">@CMDA-TT⤴︎</a>
-</div>
+<br>
 
 
 <div align="center">
-My process during the Tech Track is documented in <a href="https://github.com/GiovanniDw/functional-programming/wiki">this **Wiki!** ⤴︎</a>
+My process during the Tech Track is documented in <a href="https://github.com/GiovanniDw/functional-programming/wiki">this <strong>Wiki!</strong> ⤴︎</a>
 </div>
 
+<br>
 
----
 
-### Contents
+## Contents
 
 [ ⦿ Features](#features)  
 [ ⦿ Installation](#installation)  
@@ -49,7 +51,7 @@ My process during the Tech Track is documented in <a href="https://github.com/Gi
 
 
 
-### Features
+## Features
 
 - [x] Get, Filter, Clean & transform dataset from Survey Exercise.
 - [x] Get external data from API.
@@ -57,7 +59,7 @@ My process during the Tech Track is documented in <a href="https://github.com/Gi
 - [ ] Transform the data thats clean.
 - [ ] Use D3 to Create Visualisation from clean data.
 
-### Example
+## Example
 
 ```javascript
 const url = 'https://opendata.rdw.nl/resource/';
@@ -94,64 +96,64 @@ function logResult(result) {
 
 ```
 
-### Installation
+## Installation
 
 First, clone the repo to your local machine.
 
 ```zsh
-git clone https://github.com/GiovanniDw/functional-programming.git
+$ git clone https://github.com/GiovanniDw/functional-programming.git
 ```
 
-Then ` $ cd ` into the project folder.
+Then ` $ cd/ ` into the project folder.
 
 ```zsh
-npm install
+$ npm install
 ```
 
 Now run the project!
 
 ```zsh
-npm run dev
+$ npm run dev
 ```
 
-### API
+## API
 
 Most of the data that will be used, comes from the [opendata.rdw.nl⤴︎](https://opendata.rdw.nl) API.
 
 **API-endpoint:**  
 `https://opendata.rdw.nl/resource`/`ixf8-gtwq.json`
 
-### Assignment
+## Assignment
 
 During this course the code in this repo will use functional patterns to get, filter, clean & transform datasets from external sources about parking. And visualise that data. For more details about te concept and the data go to [the Wiki⤴︎](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
 
 > Create a data visualisation with d3 based on given data.
 >
-#### Functional Programming
+### Functional Programming
 
 **During this course** _I will_   
 ● Apply functional programming patterns to clean & transform data.  
 ● Develop a concept for _The Volkskrant_ based on external datasets  
 ● Create interactive visualizations with data by using D3  
 
-#### Frontend Data
+### Frontend Data
 
 - _____
 
-#### Frontend Applications
+### Frontend Applications
 
 - _____
 
-### Rubric
+## Rubric
 
 [Functional Programming ⤴︎](https://github.com/cmda-tt/course-20-21/blob/master/pages/functional-programming/assessment.md)
 
-### Resources
+## Resources
 
 [CMDA Tech Track recource page](https://cmda-tt.github.io/course-20-21/resources/)
 
 
-### Credits
+## Credits
 
 - Teachers from the [Tech Track @CMD ⤴︎](https://github.com/cmda-tt/)
 
