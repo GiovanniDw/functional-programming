@@ -23,7 +23,7 @@ Functional Programming is a course given at [CMDA](https://github.com/cmda). Thi
 
 > My concept is to create an Interactive Visualisation for the cheapest moments to find a parkingspot in different cities.  
 
-During this course the code in this repo will; filter(), clean() & transform() the parking datasets. Read more about te concept in [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
+During this course the code in this repo will; `filter()`, `clean()` & `transform()` data from external sources about parking. For more reading about te concept and the data go to [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
 
 ## Installation
 
