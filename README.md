@@ -1,7 +1,7 @@
 <h1 align="center">Tech Track</h1>
 
 <div align="center">
- Tech Track is an elective track of the following 3 courses<br>
+ Tech Track is an elective track of the following 3 courses</br>
 </div>
 <div align="center">
   <p>
@@ -16,16 +16,16 @@
     <a href="https://cmda-tt.github.io/course-20-21/courses/frontend-applications/">
       Frontend Applications
     </a>
-    <br>
+    </br>
     <sup>given during Project Information Design <a href="https://github.com/cmda">@CMDA⤴︎</a></sup>
   </p>
   
 </div>
-<sup align="center">
-  More information about the **T**ech **T**rack? 
-  <br>
-    <a href="https://github.com/cmda-tt/course-20-21">@CMDA-TT⤴︎</a></sup>
+
+<sup align="center">More information about the Tech Track? </br>
+<a href="https://github.com/cmda-tt/course-20-21">@CMDA-TT⤴︎</a>
 </sup>
+
 
 <p align="center">
 
