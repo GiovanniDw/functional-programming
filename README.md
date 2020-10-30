@@ -5,15 +5,15 @@
 </div>
 <div align="center">
   <p>
-    <a href="https://cmda-tt.github.io/course-20-21/courses/functional-programming/">
+    <a href="https://cmda-tt.github.io/course-20-21/courses/functional-programming">
       <b>Functional Programming</b>
     </a>
     <span> | </span>
-    <a href="https://cmda-tt.github.io/course-20-21/courses/frontend-data/">
+    <a href="https://cmda-tt.github.io/course-20-21/courses/frontend-data">
       Frontend Data
     </a>
     <span> | </span>
-    <a href="https://cmda-tt.github.io/course-20-21/courses/frontend-applications/">
+    <a href="https://cmda-tt.github.io/course-20-21/courses/frontend-applications">
       Frontend Applications
     </a>
     </br>
@@ -22,16 +22,14 @@
   
 </div>
 
-<sup align="center">More information about the Tech Track? </br>
+<div align="center">More information about the Tech Track?
 <a href="https://github.com/cmda-tt/course-20-21">@CMDA-TT⤴︎</a>
-</sup>
+</div>
 
 
-<p align="center">
-
-My process during the Tech Track is documented in [this **Wiki!** ⤴︎](https://github.com/GiovanniDw/functional-programming/wiki/)
-
-</p>
+<div align="center">
+My process during the Tech Track is documented in <a href="https://github.com/GiovanniDw/functional-programming/wiki">this **Wiki!** ⤴︎</a>
+</div>
 
 
 ---
@@ -159,5 +157,10 @@ During this course the code in this repo will use functional patterns to get, fi
 
 ---
 
-<p align="center"> 
-◀︎ <a align="left" href="https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE"> MIT licenced </a> | <a align="center" href="https://github.com/GiovanniDw/functional-programming/wiki"><b> GiovanniDw </b> </a> | <a align="right" href="https://github.com/GiovanniDw/functional-programming/wiki"> Wiki for more </a> ▶︎ </p>
+<p align="center">
+<a align="left" href="https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE"> MIT licenced </a>
+ <span>|</span> 
+ <a align="center" href="https://github.com/GiovanniDw/functional-programming/wiki"><strong> GiovanniDw </strong> </a>
+<span>|</span>
+<a align="right" href="https://github.com/GiovanniDw/functional-programming/wiki"> Wiki for more </a>
+</p>
