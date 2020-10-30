@@ -22,10 +22,9 @@
   
 </div>
 <sup align="center">
-
-More information about the **T**ech **T**rack?  
-[@CMDA-TT ⤴︎](https://github.com/cmda-tt/course-20-21)  
-
+  More information about the **T**ech **T**rack? 
+  <br>
+    <a href="https://github.com/cmda-tt/course-20-21">@CMDA-TT⤴︎</a></sup>
 </sup>
 
 <p align="center">
@@ -37,11 +36,7 @@ My process during the Tech Track is documented in [this **Wiki!** ⤴︎](https:
 
 ---
 
-<sub>
-
 ### Contents
-
-</sub>
 
 [ ⦿ Features](#features)  
 [ ⦿ Installation](#installation)  
