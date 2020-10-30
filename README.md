@@ -1,10 +1,11 @@
 # Functional Programming
 
-Functional Programming is a course given at [CMDA](https://github.com/cmda). This course is part of the [Tech Track](https://github.com/cmda-tt) given in Project Information Design.  
+Functional Programming is a course given at [CMDA](https://github.com/cmda). This course is part of the [Tech Track](https://github.com/cmda-tt) and will be during Project Information Design.  More details  about my process during the Tech Track and the cources are documented in [my Wiki](https://github.com/GiovanniDw/functional-programming/wiki/)
 
-[For more information about the Tech Track and this course.](https://github.com/cmda-tt/course-20-21)  
+For more information about the Tech Track and its courses [visit cmda-tt/20-21](https://github.com/cmda-tt/course-20-21)  
 
 ## Contents
+
   - [Contents](#contents)
   - [Concept](#concept)
   - [Installation](#installation)
@@ -19,11 +20,12 @@ Functional Programming is a course given at [CMDA](https://github.com/cmda). Thi
     - [Credits](#credits)
     - [🗺️ License](#️-license)
 
-## Concept
+## Features
 
-> My concept is to create an Interactive Visualisation for the cheapest moments to find a parkingspot in different cities.  
+> My concept is to create an Interactive Visualisation for the cheapest moments(ex. hollidays) to find a parkingspot and differences between in cities.
 
-During this course the code in this repo will; `filter()`, `clean()` & `transform()` data from external sources about parking. For more reading about te concept and the data go to [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
+During this course the code in this repo will use functional patterns to; `filter()`, `clean()` & `transform()` data from external sources about parking. For more details about te concept and the data go to [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
+
 
 ## Installation
 
@@ -33,7 +35,7 @@ First, clone the repo to your local machine.
 $ git clone https://github.com/GiovanniDw/functional-programming.git
 ```
 
-Then `$ cd` into the project folder.
+Then ` $ cd ` into the project folder.
 
 ```zsh
 $ npm install
@@ -47,14 +49,13 @@ $ npm run dev
 
 ## API
 
-`opendata.rdw.nl`
+Most of the data that will be used, comes from the [opendata.rdw.nl](https://opendata.rdw.nl) API.
 
-Volkskrant's API
 
 ### Assignment
 
 <details>
-  <summary></strong> (click to expand)</summary>
+  <summary>Create a data visualisation with d3 based on given data.</strong> (click to expand)</summary>
 
 **During this course** _I will_
 
@@ -68,18 +69,16 @@ Volkskrant's API
 -   _You can ..._
 -   _You can ..._
 
-### Week 1 - Data Opschonen 🐒
+### 1st Week - Survey Exercise
 
 Goal: `map()` & `filter()` & functional chains toepassen
---> hoe heb ik dit gedaan? --> verwijzing naar wiki, of inklappen?
+
 
 ### Week 2 - title 🛠
 
 Goal: xxx
 
-### Week 3 - title 🎁
 
-Goal: xxx
 
 </details>
 
@@ -98,5 +97,4 @@ Goal: xxx
 
 ---
 
-<p align="center"><a align="left" href="https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE">MIT licenced</a> | <a align="center" href="https://github.com/GiovanniDw/functional-programming/wiki"><b>GiovanniDw</b></a> | <a align="right" href="https://github.com/GiovanniDw/functional-programming/wiki">Wiki for more</a>
-</p>
+<p align="center"> ◀︎ <a align="left" href="https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE"> MIT licenced </a> | <a align="center" href="https://github.com/GiovanniDw/functional-programming/wiki"><b> GiovanniDw </b> </a> | <a align="right" href="https://github.com/GiovanniDw/functional-programming/wiki"> Wiki for more </a> ▶︎ </p>
