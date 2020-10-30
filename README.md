@@ -1,10 +1,8 @@
 # Functional Programming
 
-## Tech Track
 
-Functional Programming is part of the [Tech Track](https://github.com/cmda-tt) given at [CMDA](https://github.com/cmda)
-
-
+> [Functional Programming](https://cmda-tt.github.io/course-20-21/courses/functional-programming/) is a course part of the [Tech Track](https://github.com/cmda-tt), given at [CMDA](https://github.com/cmda).  
+> This repo contains my work for this course.
 
 <details>
   <summary><strong>Table of Contents</strong> (click to expand)</summary>
@@ -12,7 +10,6 @@ Functional Programming is part of the [Tech Track](https://github.com/cmda-tt) g
 <!-- toc -->
 
 - [Functional Programming](#functional-programming)
-  - [Tech Track](#tech-track)
   - [📋 Concept](#-concept)
   - [⚙️ Installation](#️-installation)
     - [🐒 API](#-api)
@@ -103,3 +100,4 @@ Goal: xxx
 
 Author: [Giovanni Dwidjosewojo](https://github.com/deannabosschert) , license by
 [MIT](https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE)
+
