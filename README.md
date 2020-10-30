@@ -7,18 +7,19 @@ For more information about the Tech Track and their courses [visit cmda-tt/20-21
 
 ### Contents
 
-[ - Functional Programming](#functional-programming)
-[ - Contents](#contents)
-[ - Features](#features)
-[ - Installation](#installation)
-[ - API](#api)
-[ - Assignment](#assignment)
-  [ - Functional Programming](#functional-programming-1)
-  [ - Frontend Data](#frontend-data)
-  [ - Frontend Applications](#frontend-applications)
-[ - Rubric](#rubric)
-[ - Resources](#resources)
-[ - Credits](#credits)
+[ - Functional Programming](#functional-programming)  
+[ - Contents](#contents)  
+[ - Features](#features)  
+[ - Installation](#installation)  
+[ - API](#api)  
+[ - Assignment](#assignment)  
+  [ - Functional Programming](#functional-programming-1)  
+  [ - Frontend Data](#frontend-data)  
+  [ - Frontend Applications](#frontend-applications)  
+[ - Rubric](#rubric)  
+[ - Resources](#resources)  
+[ - Credits](#credits)  
+
 
 
 ### Features
@@ -59,10 +60,10 @@ Most of the data that will be used, comes from the [opendata.rdw.nl](https://ope
 
 > Create a data visualisation with d3 based on given data.
 
-**During this course** _I will_  
-● Apply functional programming patterns to clean & transform data.
-● Develop a concept for _The Volkskrant_ based on external datasets
-● Create interactive visualizations with data by using D3
+**During this course** _I will_   
+● Apply functional programming patterns to clean & transform data.  
+● Develop a concept for _The Volkskrant_ based on external datasets  
+● Create interactive visualizations with data by using D3  
 
 #### Functional Programming
 
