@@ -1,10 +1,24 @@
 # Functional Programming
 
-Functional Programming is a course given at [CMDA](https://github.com/cmda). This course is part of the [Tech Track](https://github.com/cmda-tt) and will be during Project Information Design.  More details  about my process during the Tech Track and the cources are documented in [my Wiki](https://github.com/GiovanniDw/functional-programming/wiki/)
+Functional Programming is a course given at [CMDA](https://github.com/cmda). This course is part of the [Tech Track](https://github.com/cmda-tt) and will be during Project Information Design.  
+More details about my process during the Tech Track and its cources are documented in [my Wiki](https://github.com/GiovanniDw/functional-programming/wiki/)
 
-For more information about the Tech Track and its courses [visit cmda-tt/20-21](https://github.com/cmda-tt/course-20-21)  
+For more information about the Tech Track and their courses [visit cmda-tt/20-21](https://github.com/cmda-tt/course-20-21)  
 
-## Contents
+### Contents
+
+- [Functional Programming](#functional-programming)
+    - [Contents](#contents)
+    - [Features](#features)
+    - [Installation](#installation)
+    - [API](#api)
+    - [Assignment](#assignment)
+      - [Functional Programming](#functional-programming-1)
+      - [Frontend Data](#frontend-data)
+      - [Frontend Applications](#frontend-applications)
+    - [Rubric](#rubric)
+    - [Resources](#resources)
+    - [Credits](#credits)
 
   - [Contents](#contents)
   - [Concept](#concept)
@@ -20,14 +34,18 @@ For more information about the Tech Track and its courses [visit cmda-tt/20-21](
     - [Credits](#credits)
     - [🗺️ License](#️-license)
 
-## Features
+### Features
 
-> My concept is to create an Interactive Visualisation for the cheapest moments(ex. hollidays) to find a parkingspot and differences between in cities.
+- [x] Get, Filter, Clean & transform dataset from Survey Exercise.
+- [x] Get external data from API.
+- [ ] Clean external API data that i need.
+- [ ] Transform the data thats clean.
+- [ ] Use D3 to Create Visualisation from clean data.
+ 
+During this course the code in this repo will use functional patterns to get, filter, clean & transform datasets from external sources about parking. And visualise that data. For more details about te concept and the data go to [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
 
-During this course the code in this repo will use functional patterns to; `filter()`, `clean()` & `transform()` data from external sources about parking. For more details about te concept and the data go to [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
 
-
-## Installation
+### Installation
 
 First, clone the repo to your local machine.
 
@@ -47,46 +65,36 @@ Now run the project!
 $ npm run dev
 ```
 
-## API
+### API
 
 Most of the data that will be used, comes from the [opendata.rdw.nl](https://opendata.rdw.nl) API.
 
 
 ### Assignment
 
-<details>
-  <summary>Create a data visualisation with d3 based on given data.</strong> (click to expand)</summary>
-
-**During this course** _I will_
-
- - Apply functional programming patterns to clean & transform data.
- - Develop a concept for _The Volkskrant_ based on external datasets
- - Create interactive visualizations with data by using D3
- - 
-### Learning goals
-
--   _You can ..._
--   _You can ..._
--   _You can ..._
-
-### 1st Week - Survey Exercise
-
-Goal: `map()` & `filter()` & functional chains toepassen
+> Create a data visualisation with d3 based on given data.
 
 
-### Week 2 - title 🛠
+**During this course** _I will_  
+● Apply functional programming patterns to clean & transform data.
+● Develop a concept for _The Volkskrant_ based on external datasets
+● Create interactive visualizations with data by using D3
+
+
+#### Functional Programming
+
+
+#### Frontend Data
+
+Goal: xxx
+#### Frontend Applications
 
 Goal: xxx
 
 
-
-</details>
-
 ### Rubric
 
-[Rubric- detailed rating of my project](https://github.com/deannabosschert/functional-programming-2021/wiki/Rubric)
-![rubric](https://github.com/deannabosschert/functional-programming-2021/blob/master/src/img/rubric.png)
-
+[Functional Programming ⤴︎ ](https://github.com/cmda-tt/course-20-21/blob/master/pages/functional-programming/assessment.md)
 
 
 ### Resources
