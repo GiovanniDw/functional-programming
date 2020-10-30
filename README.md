@@ -1,11 +1,12 @@
-# Functional Programming
+# [Functional Programming](https://cmda-tt.github.io/course-20-21/courses/functional-programming/)
 
-
-> [Functional Programming](https://cmda-tt.github.io/course-20-21/courses/functional-programming/) is a course part of the [Tech Track](https://github.com/cmda-tt), given at [CMDA](https://github.com/cmda).  
+> Functional Programming is a course part of the [Tech Track](https://github.com/cmda-tt), given at [CMDA](https://github.com/cmda).  
 > This repo contains my work for this course.
 
+[Learn more about the Tech Track](https://github.com/cmda-tt/course-20-21)
+
 <details>
-  <summary><strong>Table of Contents</strong> (click to expand)</summary>
+  <summary><h2>Table of Contents</h2></summary>
 
 <!-- toc -->
 
@@ -36,7 +37,7 @@ _What does your app do, what is the goal? (passing butter)_
 Clone this repository to your own device:
 
 ```zsh
-$ git https://github.com/GiovanniDw/functional-programming.git
+$ git clone https://github.com/GiovanniDw/functional-programming.git
 ```
 
 Then, navigate to this folder and run:
@@ -88,6 +89,8 @@ Goal: xxx
 
 [Rubric- detailed rating of my project](https://github.com/deannabosschert/functional-programming-2021/wiki/Rubric)
 ![rubric](https://github.com/deannabosschert/functional-programming-2021/blob/master/src/img/rubric.png)
+
+
 
 ## ℹ️ Resources
 
