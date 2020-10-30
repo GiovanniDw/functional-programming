@@ -41,61 +41,55 @@ For more information about the Tech Track and their courses [visit cmda-tt/20-21
 - [ ] Clean external API data that i need.
 - [ ] Transform the data thats clean.
 - [ ] Use D3 to Create Visualisation from clean data.
- 
-During this course the code in this repo will use functional patterns to get, filter, clean & transform datasets from external sources about parking. And visualise that data. For more details about te concept and the data go to [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
 
+During this course the code in this repo will use functional patterns to get, filter, clean & transform datasets from external sources about parking. And visualise that data. For more details about te concept and the data go to [the Wiki](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
 
 ### Installation
 
 First, clone the repo to your local machine.
 
 ```zsh
-$ git clone https://github.com/GiovanniDw/functional-programming.git
+git clone https://github.com/GiovanniDw/functional-programming.git
 ```
 
 Then ` $ cd ` into the project folder.
 
 ```zsh
-$ npm install
+npm install
 ```
 
 Now run the project!
 
 ```zsh
-$ npm run dev
+npm run dev
 ```
 
 ### API
 
 Most of the data that will be used, comes from the [opendata.rdw.nl](https://opendata.rdw.nl) API.
 
-
 ### Assignment
 
 > Create a data visualisation with d3 based on given data.
-
 
 **During this course** _I will_  
 ● Apply functional programming patterns to clean & transform data.
 ● Develop a concept for _The Volkskrant_ based on external datasets
 ● Create interactive visualizations with data by using D3
 
-
 #### Functional Programming
-
 
 #### Frontend Data
 
 Goal: xxx
+
 #### Frontend Applications
 
 Goal: xxx
 
-
 ### Rubric
 
-[Functional Programming ⤴︎ ](https://github.com/cmda-tt/course-20-21/blob/master/pages/functional-programming/assessment.md)
-
+[Functional Programming ⤴︎](https://github.com/cmda-tt/course-20-21/blob/master/pages/functional-programming/assessment.md)
 
 ### Resources
 
