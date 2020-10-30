@@ -1,23 +1,18 @@
-# [Functional Programming](https://cmda-tt.github.io/course-20-21/courses/functional-programming/)
+# Functional Programming
 
-The Functional Programming course is part of the [Tech Track](https://github.com/cmda-tt), given at [CMDA](https://github.com/cmda).
-This repo contains my work for this course.
+Functional Programming, a course that's part of the [Tech Track](https://github.com/cmda-tt), this Track is given at [CMDA](https://github.com/cmda).
+
+[For more information about this course and the Tech Track 〉](https://github.com/cmda-tt/course-20-21)  
+[The Wiki for my documented process for this course 〉](https://github.com/GiovanniDw/functional-programming/wiki)
 
 
-**During this course** _I will_
+In this repo you will find my work for this course.
 
-- Apply functional programming patterns to clean & transform data.
-- Develop a concept for _The Volkskrant_ based on external datasets
-- Create interactive visualizations with data by using D3
-
-_[Learn more about Functional Programming and the Tech Track](https://github.com/cmda-tt/course-20-21)_
-
-### Contents
+## Contents
   
-- [Functional Programming](#functional-programming)
-    - [Contents](#contents)
-    - [Concept](#concept)
-    - [Installation](#installation)
+  - [Contents](#contents)
+  - [Concept](#concept)
+  - [Installation](#installation)
     - [API](#api)
     - [Assignment](#assignment)
     - [Learning goals](#learning-goals)
@@ -29,33 +24,35 @@ _[Learn more about Functional Programming and the Tech Track](https://github.com
     - [Credits](#credits)
     - [🗺️ License](#️-license)
 
-### Concept
+## Concept
 
 _What does your app do, what is the goal? (passing butter)_
 
-### Installation
+For more information
 
-Clone this repository to your own device:
+## Installation
+
+First, clone the repo to your local machine.
 
 ```zsh
 $ git clone https://github.com/GiovanniDw/functional-programming.git
 ```
 
-Then, navigate to this folder and run:
+Then `$ cd ` into the project folder.
 
 ```zsh
-npm install
+$ npm install
 ```
 
-To run the project:
+Now run the project!
 
 ```zsh
-npm run dev
+$ npm run dev
 ```
 
-### API
+## API
 
-_What external data source is featured in your project and what are its properties?_
+`opendata.rdw.nl`
 
 Volkskrant's API
 
@@ -97,11 +94,14 @@ Goal: xxx
 
 ### Credits
 
--   Our superamazingteachers at the [Tech Track @CMD](https://github.com/cmda-tt/)
--   ReadMe template [Deanna Bosschert](https://github.com/deannabosschert)
+- Teachers from the [Tech Track @CMD](https://github.com/cmda-tt/)
 
-### 🗺️ License
+#License
 
-Author: [Giovanni Dwidjosewojo](https://github.com/deannabosschert) , license by
+Author: [Giovanni Dwidjosewojo](https://github.com/giovannidw) , license by
 [MIT](https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE)
 
+
+
+<p align="center"><a align="left" href="https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE">MIT licenced. </a> | <a align="center" href="https://github.com/GiovanniDw/functional-programming/wiki">GiovanniDw</a> | <a align="right" href="https://github.com/GiovanniDw/functional-programming/wiki">Wiki for more</a>
+</p>
