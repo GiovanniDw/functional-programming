@@ -35,10 +35,10 @@ My process during the Tech Track is documented in <a href="https://github.com/Gi
 
 <br>
 
-
 ## Contents
 
 [ ⦿ Features](#features)  
+[ ⦿ Example](#example)  
 [ ⦿ Installation](#installation)  
 [ ⦿ API](#api)  
 [ ⦿ Assignment](#assignment)  
@@ -121,28 +121,47 @@ $ npm run dev
 Most of the data that will be used, comes from the [opendata.rdw.nl⤴︎](https://opendata.rdw.nl) API.
 
 **API-endpoint:**  
-`https://opendata.rdw.nl/resource`/`ixf8-gtwq.json`
+
+```javascript
+https://opendata.rdw.nl/resource/ixf8-gtwq.json
+```
 
 ## Assignment
+> Create a data visualisation with d3 based on given data.  
 
 During this course the code in this repo will use functional patterns to get, filter, clean & transform datasets from external sources about parking. And visualise that data. For more details about te concept and the data go to [the Wiki⤴︎](https://github.com/GiovanniDw/functional-programming/wiki/Concept)
+<details>
+  <summary><strong>Functional Programming</strong></summary>
 
-> Create a data visualisation with d3 based on given data.
->
-### Functional Programming
+**During this course I will**  
+⦿ Apply functional programming patterns to clean & transform data.  
+⦿ Develop a concept for _The Volkskrant_ based on external datasets  
+⦿ Create interactive visualizations with data by using D3  
 
-**During this course** _I will_   
-● Apply functional programming patterns to clean & transform data.  
-● Develop a concept for _The Volkskrant_ based on external datasets  
-● Create interactive visualizations with data by using D3  
+</details>
+</br>
+<details>
+  <summary><strong>Frontend Data</strong></summary>
 
-### Frontend Data
 
-- _____
+```js
 
-### Frontend Applications
+```
 
-- _____
+
+</details>
+</br>
+<details>
+
+  <summary><strong>Frontend Applications</strong></summary>
+
+
+```js
+```
+
+
+</details>
+
 
 ## Rubric
 
