@@ -1,38 +1,39 @@
 # [Functional Programming](https://cmda-tt.github.io/course-20-21/courses/functional-programming/)
 
-> Functional Programming is a course part of the [Tech Track](https://github.com/cmda-tt), given at [CMDA](https://github.com/cmda).  
-> This repo contains my work for this course.
+The Functional Programming course is part of the [Tech Track](https://github.com/cmda-tt), given at [CMDA](https://github.com/cmda).
+This repo contains my work for this course.
 
-[Learn more about the Tech Track](https://github.com/cmda-tt/course-20-21)
 
-<details>
-  <summary><h2>Table of Contents</h2></summary>
+**During this course** _I will_
 
-<!-- toc -->
+- Apply functional programming patterns to clean & transform data.
+- Develop a concept for _The Volkskrant_ based on external datasets
+- Create interactive visualizations with data by using D3
 
+_[Learn more about Functional Programming and the Tech Track](https://github.com/cmda-tt/course-20-21)_
+
+### Contents
+  
 - [Functional Programming](#functional-programming)
-  - [📋 Concept](#-concept)
-  - [⚙️ Installation](#️-installation)
-    - [🐒 API](#-api)
-  - [🏫 Assignment](#-assignment)
+    - [Contents](#contents)
+    - [Concept](#concept)
+    - [Installation](#installation)
+    - [API](#api)
+    - [Assignment](#assignment)
     - [Learning goals](#learning-goals)
     - [Week 1 - Data Opschonen 🐒](#week-1---data-opschonen-)
     - [Week 2 - title 🛠](#week-2---title-)
     - [Week 3 - title 🎁](#week-3---title-)
     - [Rubric](#rubric)
-  - [ℹ️ Resources](#ℹ️-resources)
+    - [Resources](#resources)
     - [Credits](#credits)
-  - [🗺️ License](#️-license)
+    - [🗺️ License](#️-license)
 
-<!-- tocstop -->
-
-</details>
-
-## 📋 Concept
+### Concept
 
 _What does your app do, what is the goal? (passing butter)_
 
-## ⚙️ Installation
+### Installation
 
 Clone this repository to your own device:
 
@@ -52,13 +53,13 @@ To run the project:
 npm run dev
 ```
 
-### 🐒 API
+### API
 
 _What external data source is featured in your project and what are its properties?_
 
 Volkskrant's API
 
-## 🏫 Assignment
+### Assignment
 
 <details>
   <summary></strong> (click to expand)</summary>
@@ -92,14 +93,14 @@ Goal: xxx
 
 
 
-## ℹ️ Resources
+### Resources
 
 ### Credits
 
 -   Our superamazingteachers at the [Tech Track @CMD](https://github.com/cmda-tt/)
 -   ReadMe template [Deanna Bosschert](https://github.com/deannabosschert)
 
-## 🗺️ License
+### 🗺️ License
 
 Author: [Giovanni Dwidjosewojo](https://github.com/deannabosschert) , license by
 [MIT](https://github.com/GiovanniDw/functional-programming/blob/main/LICENSE)
