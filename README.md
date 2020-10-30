@@ -122,7 +122,7 @@ Most of the data that will be used, comes from the [opendata.rdw.nl⤴︎](https
 
 **API-endpoint:**  
 
-```javascript
+```html
 https://opendata.rdw.nl/resource/ixf8-gtwq.json
 ```
 
